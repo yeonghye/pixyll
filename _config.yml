@@ -4,7 +4,7 @@ email:       yeonghyekims@example.com
 author:      Yeong-hye
 description: "simple, beautiful, happy"
 baseurl:     "/blog"
-url:         "http://github.com/yeonghye"
+url:         "http://yeonghye.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
