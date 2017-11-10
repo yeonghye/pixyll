@@ -4,6 +4,7 @@ title: Work
 permalink: work/
 tags: work
 ---
+{% assign posts_count = paginator.posts | size %}
 
 
 <div class="home">
