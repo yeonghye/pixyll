@@ -1,9 +1,7 @@
 ---
-layout: page
-title: Work 
-permalink: work/
-tags: work
+layout: default
 ---
+
 {% assign posts_count = paginator.posts | size %}
 
 
