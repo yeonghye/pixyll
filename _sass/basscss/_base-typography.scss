@@ -65,9 +65,12 @@ blockquote p {
   font-style: italic;
 }
 
-h1,
-.h1 {
-  font-size: $h4+$h4;
+h1{
+  font-size: $h1;
+}
+
+.h1{
+  font-size: $h4*2;
 }
 
 h2,
