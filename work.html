@@ -20,9 +20,11 @@ layout: default
         </div>
       {% endfor %}
     </div>
-
     {% include pagination.html %}
   {% else %}
     <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
+    <p>{{site}}</p>
+    <p>{{post.summary}}</p>
+    <p>{{posts_count}}</p>
   {% endif %}
 </div>
