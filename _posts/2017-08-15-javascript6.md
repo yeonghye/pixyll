@@ -6,9 +6,9 @@ summary:    Javascript #5
 categories: Javascript
 ---
 
-### Javascript D-day 구현하기
+## Javascript D-day 구현하기
 
-#### HTML
+### HTML
 ```html
 <div class="wrap">
 	<div class="inputBtn">
@@ -26,7 +26,7 @@ categories: Javascript
 
 
 
-#### CSS
+### CSS
 ```css
 *{margin:0;padding: 0;}
 .wrap{width:300px;margin:0 auto;}
@@ -43,7 +43,7 @@ categories: Javascript
 
 
 
-#### Javascript
+### Javascript
 ```javascript
 function inputSave(){
   /*디데이*/

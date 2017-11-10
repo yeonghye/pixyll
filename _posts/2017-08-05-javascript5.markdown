@@ -6,11 +6,11 @@ summary:    Javascript #4
 categories: Javascript
 ---
 
-### Javascript #4
+## Javascript #4
 
 
 
-#### HTML
+### HTML
 ```html
 <div id="wrap">
 	<h1>editor</h1>
@@ -50,7 +50,7 @@ categories: Javascript
 
 
 
-#### CSS
+### CSS
 ```css
 *{margin:0;padding:0;}
 #wrap{width:660px;margin:50px auto;}
@@ -80,7 +80,7 @@ table td{border:1px solid #ddd;width:20%;}
 
 
 
-#### JAVASCRIPT
+### JAVASCRIPT
 ```javascript
 var textpad = document.getElementById("textpad");
 
