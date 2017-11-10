@@ -8,7 +8,7 @@ categories: Javascript
 
 ## Javascript #4
 
-syntax: [결과보러가기](https://jsfiddle.net/lea2015/q69krneg/1/)
+[결과보러가기](https://jsfiddle.net/lea2015/q69krneg/1/)
 
 
 ### HTML
