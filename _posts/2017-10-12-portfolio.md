@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      portfolio - 반응형 홈페이지 레이아웃 제작
+title:      Portfolio - 반응형 홈페이지 레이아웃 제작
 date:       2017-10-12 
-summary:    portfolio - 반응형 홈페이지 레이아웃 제작
+summary:    Portfolio - 반응형 홈페이지 레이아웃 제작
 categories: git
 ---
 
 
-## portfolio - 반응형 홈페이지 레이아웃 제작 
+## Portfolio - 반응형 홈페이지 레이아웃 제작 
 ### 기존 html 수정없이 css만 변경하여 작업함
 
 [결과보러가기1](http://buranop.com/)

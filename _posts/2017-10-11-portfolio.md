@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      Portfolio - admin login page
+title:      Portfolio - 관리자 로그인 페이지
 date:       2017-10-11 
-summary:    portfolio -
+summary:    Portfolio - 관리자 로그인 페이지
 categories: git
 ---
 
 
-## portfolio - admin login page
+## Portfolio - admin login page
 
 [결과보러가기](https://ddnayo.com/bms/login.aspx?ReturnUrl=%2fAms%2fDefault.aspx&id_hotel=)
 
