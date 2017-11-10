@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Javascript 글 편집기
+title:      [Javascript 예제] 글 편집기
 date:       2017-08-05 
 summary:    Javascript #4
 categories: Javascript
