@@ -13,39 +13,39 @@ categories: Javascript
 #### HTML
 ```html
 <div id="wrap">
-		<h1>editor</h1>
-			<table>
-				<tbody>
-					<tr>
-						<th>
-							<select name="fontFamily" id="fontFamily">
-								<option value="돋움">돋움</option>
-								<option value="바탕" >바탕</option>
-								<option value="arial">arial</option>
-								<option value="verdana">verdana</option>
-							</select>
-						</th>
-						<th>
-							<select name="fontSize" id="fontSize">
-								<option value="9pt">9pt</option>
-								<option value="12pt">12pt</option>
-								<option value="14pt">14pt</option>
-								<option value="16pt">16pt</option>
-								<option value="20pt">20pt</option>
-							</select>
-						</th>
-						<th><button type="button" id="fontWeight"><span>가</span></button></th>
-						<th><button type="button" id="fontDeco"><span>가</span></button></th>
-						<th><button type="button" id="fontStyle"><span>가</span></button></th>
-					</tr>
-					<tr>
-						<td colspan="5" class="textpad">
-							<textarea name="textpad" id="textpad" cols="30" rows="10"></textarea>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-	</div>
+	<h1>editor</h1>
+	<table>
+		<tbody>
+			<tr>
+				<th>
+					<select name="fontFamily" id="fontFamily">
+						<option value="돋움">돋움</option>
+						<option value="바탕" >바탕</option>
+						<option value="arial">arial</option>
+						<option value="verdana">verdana</option>
+					</select>
+				</th>
+				<th>
+					<select name="fontSize" id="fontSize">
+						<option value="9pt">9pt</option>
+						<option value="12pt">12pt</option>
+						<option value="14pt">14pt</option>
+						<option value="16pt">16pt</option>
+						<option value="20pt">20pt</option>
+					</select>
+				</th>
+				<th><button type="button" id="fontWeight"><span>가</span></button></th>
+				<th><button type="button" id="fontDeco"><span>가</span></button></th>
+				<th><button type="button" id="fontStyle"><span>가</span></button></th>
+			</tr>
+			<tr>
+				<td colspan="5" class="textpad">
+					<textarea name="textpad" id="textpad" cols="30" rows="10"></textarea>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 ```
 
 
@@ -77,6 +77,8 @@ table td{border:1px solid #ddd;width:20%;}
 .textpad{height:500px;background:#eaeaea;}
 .textpad textarea{height:500px;width: 100%;border:none;background:#fafafa;}
 ```
+
+
 
 #### JAVASCRIPT
 ```javascript
