@@ -8,6 +8,8 @@ categories: Javascript
 
 ## Javascript D-day 구현하기
 
+syntax: [결과보러가기](https://jsfiddle.net/lea2015/6oz8q5mq/2/)
+
 ### HTML
 ```html
 <div class="wrap">
