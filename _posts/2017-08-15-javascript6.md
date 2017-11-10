@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      [Javascript 예제] D-day 날짜구하기
+title:      Javascript 예제 - D-day 날짜구하기
 date:       2017-08-15 
 summary:    Javascript #5
 categories: Javascript
