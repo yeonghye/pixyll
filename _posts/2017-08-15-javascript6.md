@@ -46,30 +46,29 @@ categories: Javascript
 #### Javascript
 ```javascript
 function inputSave(){
-	/*디데이*/
-	var inputDate = document.getElementById("inputtxt").value;
-	document.getElementById("dDay").innerHTML = inputDate;
+  /*디데이*/
+  var inputDate = document.getElementById("inputtxt").value;
+  document.getElementById("dDay").innerHTML = inputDate;
+
+  var dday = new Date(inputDate);
+  var d_year = dday.getFullYear();
+  var d_month = dday.getMonth()+1;
+  var d_day = dday.getDate();
+  var d_ymd = d_year+"-"+d_month+"-"+d_day;
 
 
-	var dday = new Date(inputDate);
-	var d_year = dday.getFullYear();
-	var d_month = dday.getMonth()+1;
-	var d_day = dday.getDate();
-	var d_ymd = d_year+"-"+d_month+"-"+d_day;
+  /*오늘(기준)*/
+  var toDay = new Date();
+  var year = toDay.getFullYear();
+  var month = toDay.getMonth()+1;
+  var day = toDay.getDate();
+  var ymd = year+"-" + month+"-" +day;
+  document.getElementById("toDay").innerHTML = ymd;
 
 
-	/*오늘(기준)*/
-	var toDay = new Date();
-	var year = toDay.getFullYear();
-	var month = toDay.getMonth()+1;
-	var day = toDay.getDate();
-	var ymd = year+"-" + month+"-" +day;
-	document.getElementById("toDay").innerHTML = ymd;
-
-
-	/*남은날구하기*/
-	var time = 24*60*60*1000;
-	var day_left = Math.ceil((dday.getTime() - toDay.getTime())/time);
-	document.getElementById("dayLeft").innerHTML = -day_left;
+  /*남은날구하기*/
+  var time = 24*60*60*1000;
+  var day_left = Math.ceil((dday.getTime() - toDay.getTime())/time);
+  document.getElementById("dayLeft").innerHTML = -day_left;
 }
 ```
