@@ -32,7 +32,10 @@ ol,
 ul {
   padding-left: $space-3;
 }
-
+ol li ,
+ul li {
+  padding-left:$space-2;
+}
 pre,
 code,
 samp {
