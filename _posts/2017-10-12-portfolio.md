@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      portfolio - 반응형 홈페이지 레이아웃 제작1
+title:      portfolio - 반응형 홈페이지 레이아웃 제작
 date:       2017-10-12 
-summary:    portfolio -
+summary:    portfolio - 반응형 홈페이지 레이아웃 제작
 categories: git
 ---
 

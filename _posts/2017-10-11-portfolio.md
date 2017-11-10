@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      portfolio - admin login page
+title:      Portfolio - admin login page
 date:       2017-10-11 
 summary:    portfolio -
 categories: git
@@ -169,9 +169,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-```
-
-### JAVASCRIPT
-```javascript
-
 ```
