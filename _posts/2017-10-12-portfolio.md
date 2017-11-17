@@ -3,7 +3,7 @@ layout:     post
 title:      Portfolio - 반응형 홈페이지 레이아웃 제작
 date:       2017-10-12 
 summary:    Portfolio - 반응형 홈페이지 레이아웃 제작
-categories: git
+categories: Portfolio
 ---
 
 

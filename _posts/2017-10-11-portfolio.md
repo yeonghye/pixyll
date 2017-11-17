@@ -3,7 +3,7 @@ layout:     post
 title:      Portfolio - 관리자 로그인 페이지
 date:       2017-10-11 
 summary:    Portfolio - 관리자 로그인 페이지
-categories: git
+categories: Portfolio
 ---
 
 
