@@ -35,5 +35,5 @@ tags: work
 
 {% for post in site.posts %}
   <!-- * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }}) -->
-  * {{ post.date | date_to_string }} &raquo; <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+  * {{ post.date | date_to_string }} &raquo; <a href="{{ post.url | prepend: site.baseurl }}" class="post-link work-link"><h3 class="h1 post-title ">{{ post.title }}</h3></a>
 {% endfor %}
